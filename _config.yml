@@ -1,0 +1,20 @@
+# Site settings
+title: Learn Fortran
+short_title: Learn Fortran
+email: 
+description: ""
+baseurl: ""
+url: "https://fortran.education"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+syntax_highligher: ultraviolet
+
+syntax_highlighter_opts:
+  line_numbers: ''
+
+collections:
+  lessons:
+    output: true
+    permalink: /lessons/:path.html
